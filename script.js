@@ -1,5 +1,5 @@
 document.getElementById("submit").addEventListener("click", function () {
-    let price = 0;
+    let price = 100;
     let coefficient = 1;
 
     const education = document.getElementById("education").value;
@@ -24,7 +24,7 @@ document.getElementById("submit").addEventListener("click", function () {
             price += 100;
             break;
         case "middle_class":
-            price += 50;
+            price += 52;
             break;
         case "lower_class":
             price += 20;
